@@ -100,11 +100,6 @@ typedef struct VkMetalSurfaceCreateInfoEXT
 typedef VkResult (APIENTRY *PFN_vkCreateMacOSSurfaceMVK)(VkInstance,const VkMacOSSurfaceCreateInfoMVK*,const VkAllocationCallbacks*,VkSurfaceKHR*);
 typedef VkResult (APIENTRY *PFN_vkCreateMetalSurfaceEXT)(VkInstance,const VkMetalSurfaceCreateInfoEXT*,const VkAllocationCallbacks*,VkSurfaceKHR*);
 
-#define GLFW_COCOA_WINDOW_STATE         _GLFWwindowNS  ns;
-#define GLFW_COCOA_LIBRARY_WINDOW_STATE _GLFWlibraryNS ns;
-#define GLFW_COCOA_MONITOR_STATE        _GLFWmonitorNS ns;
-#define GLFW_COCOA_CURSOR_STATE         _GLFWcursorNS  ns;
-
 #define GLFW_NSGL_CONTEXT_STATE         _GLFWcontextNSGL nsgl;
 #define GLFW_NSGL_LIBRARY_CONTEXT_STATE _GLFWlibraryNSGL nsgl;
 
